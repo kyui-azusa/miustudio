@@ -15,6 +15,12 @@
 
   <!--Description-->
   
+      <meta name="description" content="var ap = new APlayer({
+            element: document.getElementById(&#34;aplayer-gMkHBVjj&#34;),
+            narrow: false,
+            autoplay: true,
+      ">
+  
 
   <!--Author-->
   
@@ -39,7 +45,9 @@
   <!-- Google Analytics -->
   
 
-<meta name="generator" content="Hexo 7.2.0"></head>
+<meta name="generator" content="Hexo 7.2.0"><link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
+<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
+</head>
 
 
   <body>
@@ -73,17 +81,35 @@
 
   		<div class="row">
   			
-    <div class="col-md-6 col-12 mb-4">
-  <div class="hovereffect">
-    <a href="/2020/01/23/Event - Corona lifestyle booth in CNY/">
-      <img class="img-fluid portfolio-img" src="/images/blog/2020-01-23-0.jpg" alt="Event - Corona lifestyle booth in CNY">
-      <div class="overlay">
-        <span class="overlay-text">Event - Corona lifestyle booth in CNY</span>
-      </div>
-    </a>
+  <div class="col-12 mb-4">
+    <img class="img-fluid project-img" src="/images/blog/2020-02-03-0.jpg" alt="Untitled">
   </div>
-</div>
 
+<div class="col-12 pt-lg-3 mb-4 px-4 portfolio-content">
+  
+        <div id="aplayer-gMkHBVjj" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-gMkHBVjj"),
+            narrow: false,
+            autoplay: true,
+            showlrc: false,
+            music: {
+              title: "fly me to the moon",
+              author: "Helmut Lotti",
+              url: "/music/Fly+Me+To+The+Moon_Helmut+Lotti.mp3",
+              pic: "/images/favicon.ico",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+
+
+</div>
 
 
       </div>
